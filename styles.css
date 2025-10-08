@@ -79,6 +79,11 @@ a {
   font-weight: 700;
 }
 
+.foto:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
 .footer {
   padding: 50px;
   display: flex;
