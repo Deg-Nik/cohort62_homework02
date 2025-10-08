@@ -50,7 +50,9 @@ a{
 
 .foto_student{
   width: 170px;
+  height: auto;
   border-radius: 7px;
+  object-fit: cover;
 }
 
 .main{
@@ -60,8 +62,6 @@ a{
   padding: 100px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-direction: column;
-  flex: 1;
 }
 
 .foto{
@@ -84,16 +84,5 @@ a{
   padding: 50px;
   display: flex;
   background-color: #15435e;
-}
-
-.grup{
-  font-size: 50px;
-  color: #0b5e92;
-  text-shadow: rgb(95, 163, 228) 1px 0 10px;
-
-}
-
-.grup_student{
-  display: flex;
-  gap: 150px;
+  
 }
