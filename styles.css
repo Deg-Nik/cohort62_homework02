@@ -11,6 +11,8 @@ body {
   flex-direction: column;
   min-height: 100%;
   background: #dfe4e7;
+  flex: 1;
+  
   
 }
 h1,
@@ -52,10 +54,14 @@ a{
 }
 
 .main{
+  align-items: center;
+  gap: 60px;
   display: flex;
   padding: 100px;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: column;
+  flex: 1;
 }
 
 .foto{
@@ -75,9 +81,19 @@ a{
 }
 
 .footer{
+  padding: 50px;
   display: flex;
-  width: 100%;
-  height: 200px;
   background-color: #15435e;
-  
+}
+
+.grup{
+  font-size: 50px;
+  color: #0b5e92;
+  text-shadow: rgb(95, 163, 228) 1px 0 10px;
+
+}
+
+.grup_student{
+  display: flex;
+  gap: 150px;
 }
