@@ -97,6 +97,10 @@ a {
   padding: 50px;
   display: flex;
   background-color: #15435e;
+  background-image: url('assets/background/header.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   justify-content: space-around;
   align-items: center;
   color: white;
